@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+
+
+    android:background="@color/background_color"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+
+
+>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="234dp"
+        android:paddingTop="25dp"
+        app:srcCompat="@drawable/hello" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="152dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingTop="50dp"
+        android:text="Quick Rent"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Select Category"
+        android:textColor="@color/Yellow"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+
+
+
+
+    <CheckBox
+
+        android:text="Owner"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="30dp"
+
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+
+
+        android:id="@+id/ow"/>
+
+    <CheckBox
+        android:id="@+id/re"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+
+        android:textColor="@color/black"
+
+
+        android:gravity="center"
+        android:text="Renter" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
